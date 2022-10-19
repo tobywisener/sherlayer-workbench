@@ -1,0 +1,20 @@
+{
+  "name": "sherlayerWorkbench",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "windows": "react-native run-windows"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.70.3",
+    "react-native-macos": "^0.68.0-0",
+    "react-native-windows": "0.70.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "metro-config": "^0.72.3"
+  }
+}
