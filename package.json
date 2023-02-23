@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "windows": "react-native run-windows"
+    "windows": "react-native run-windows",
+    "macos": "react-native run-macos"
   },
   "dependencies": {
+    "@react-native-community/cli": "7.0.4",
     "react": "17.0.2",
-    "react-native": "0.70.3",
+    "react-native": "0.68.x",
     "react-native-macos": "^0.68.0-0",
-    "react-native-windows": "0.70.3"
+    "react-native-windows": "0.68.x"
   },
   "devDependencies": {
     "@types/react": "^18.0.21",

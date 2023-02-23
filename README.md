@@ -9,6 +9,17 @@ React Native is used as the technology to build this app.
 ## Getting Started
 
 1. Run `yarn install`
-   1. Run `yarn start` and then in a separate window run either:
-      1. `yarn react-native-windows` or
-      2. `yarn react-native-macos`
+   1. Run `yarn start`
+      
+
+### Running on Windows
+
+In an elevated command window (Powershell etc), run
+      
+      ```yarn windows```
+
+### Running on Macos
+
+In an elevated command window (Powershell etc), run
+
+      ```yarn macos```
