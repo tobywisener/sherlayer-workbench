@@ -16,10 +16,10 @@ React Native is used as the technology to build this app.
 
 In an elevated command window (Powershell etc), run
       
-      ```yarn windows```
+```yarn windows```
 
 ### Running on Macos
 
 In an elevated command window (Powershell etc), run
 
-      ```yarn macos```
+```yarn macos```
