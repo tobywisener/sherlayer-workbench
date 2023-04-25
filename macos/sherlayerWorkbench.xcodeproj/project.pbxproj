@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0496A360A6F874C295C73D4B /* libPods-Shared-sherlayerWorkbench-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBC48FD7C3AEF576C57B21 /* libPods-Shared-sherlayerWorkbench-macOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -17,12 +16,13 @@
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
-		B5C72D9C27A1E1D711C050EF /* libPods-Shared-sherlayerWorkbench-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6EED1BDEABADF047CC5223 /* libPods-Shared-sherlayerWorkbench-iOS.a */; };
+		5B3EF3E03A334A7BBD85BEF0 /* libPods-sherlayerWorkbench-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE5AECF55AF482B38356886 /* libPods-sherlayerWorkbench-iOS.a */; };
+		93453894B34AF2376C52B274 /* libPods-sherlayerWorkbench-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3616D5122ECDD7D8A5AD7119 /* libPods-sherlayerWorkbench-macOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		02422F9FB6FF5F34B4E63E6F /* Pods-Shared-sherlayerWorkbench-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-sherlayerWorkbench-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Shared-sherlayerWorkbench-macOS/Pods-Shared-sherlayerWorkbench-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0AE5AECF55AF482B38356886 /* libPods-sherlayerWorkbench-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sherlayerWorkbench-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* sherlayerWorkbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sherlayerWorkbench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +30,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sherlayerWorkbench/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3616D5122ECDD7D8A5AD7119 /* libPods-sherlayerWorkbench-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sherlayerWorkbench-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38423A3E24576CBC00BC2EAC /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		3DD9071A8CD95DA8D51453AB /* Pods-sherlayerWorkbench-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sherlayerWorkbench-macOS.release.xcconfig"; path = "Target Support Files/Pods-sherlayerWorkbench-macOS/Pods-sherlayerWorkbench-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		514201492437B4B30078DB4F /* sherlayerWorkbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sherlayerWorkbench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142014B2437B4B30078DB4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5142014C2437B4B30078DB4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,13 +43,11 @@
 		514201562437B4B40078DB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		514201572437B4B40078DB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		514201592437B4B40078DB4F /* sherlayerWorkbench.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sherlayerWorkbench.entitlements; sourceTree = "<group>"; };
-		9D32DFD059D5DB6DDEF38881 /* Pods-Shared-sherlayerWorkbench-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-sherlayerWorkbench-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Shared-sherlayerWorkbench-iOS/Pods-Shared-sherlayerWorkbench-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A82DFB63B157C65E5D698CA2 /* Pods-Shared-sherlayerWorkbench-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-sherlayerWorkbench-iOS.release.xcconfig"; path = "Target Support Files/Pods-Shared-sherlayerWorkbench-iOS/Pods-Shared-sherlayerWorkbench-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		C8DBC48FD7C3AEF576C57B21 /* libPods-Shared-sherlayerWorkbench-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-sherlayerWorkbench-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0E74F571E1F48FF00A8324 /* Pods-Shared-sherlayerWorkbench-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-sherlayerWorkbench-macOS.release.xcconfig"; path = "Target Support Files/Pods-Shared-sherlayerWorkbench-macOS/Pods-Shared-sherlayerWorkbench-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		A6AB56D359BB24BB2B6E3164 /* Pods-sherlayerWorkbench-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sherlayerWorkbench-iOS.release.xcconfig"; path = "Target Support Files/Pods-sherlayerWorkbench-iOS/Pods-sherlayerWorkbench-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E7F6C32EF37700EA69FF5AD0 /* Pods-sherlayerWorkbench-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sherlayerWorkbench-macOS.debug.xcconfig"; path = "Target Support Files/Pods-sherlayerWorkbench-macOS/Pods-sherlayerWorkbench-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FB6EED1BDEABADF047CC5223 /* libPods-Shared-sherlayerWorkbench-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-sherlayerWorkbench-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4ED7CABD6F9FD8A75B7FD3 /* Pods-sherlayerWorkbench-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sherlayerWorkbench-iOS.debug.xcconfig"; path = "Target Support Files/Pods-sherlayerWorkbench-iOS/Pods-sherlayerWorkbench-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C72D9C27A1E1D711C050EF /* libPods-Shared-sherlayerWorkbench-iOS.a in Frameworks */,
+				5B3EF3E03A334A7BBD85BEF0 /* libPods-sherlayerWorkbench-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0496A360A6F874C295C73D4B /* libPods-Shared-sherlayerWorkbench-macOS.a in Frameworks */,
+				93453894B34AF2376C52B274 /* libPods-sherlayerWorkbench-macOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +87,10 @@
 		1986A43FA6A91CFACDF0A798 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D32DFD059D5DB6DDEF38881 /* Pods-Shared-sherlayerWorkbench-iOS.debug.xcconfig */,
-				A82DFB63B157C65E5D698CA2 /* Pods-Shared-sherlayerWorkbench-iOS.release.xcconfig */,
-				02422F9FB6FF5F34B4E63E6F /* Pods-Shared-sherlayerWorkbench-macOS.debug.xcconfig */,
-				CE0E74F571E1F48FF00A8324 /* Pods-Shared-sherlayerWorkbench-macOS.release.xcconfig */,
+				FA4ED7CABD6F9FD8A75B7FD3 /* Pods-sherlayerWorkbench-iOS.debug.xcconfig */,
+				A6AB56D359BB24BB2B6E3164 /* Pods-sherlayerWorkbench-iOS.release.xcconfig */,
+				E7F6C32EF37700EA69FF5AD0 /* Pods-sherlayerWorkbench-macOS.debug.xcconfig */,
+				3DD9071A8CD95DA8D51453AB /* Pods-sherlayerWorkbench-macOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -100,8 +100,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FB6EED1BDEABADF047CC5223 /* libPods-Shared-sherlayerWorkbench-iOS.a */,
-				C8DBC48FD7C3AEF576C57B21 /* libPods-Shared-sherlayerWorkbench-macOS.a */,
+				0AE5AECF55AF482B38356886 /* libPods-sherlayerWorkbench-iOS.a */,
+				3616D5122ECDD7D8A5AD7119 /* libPods-sherlayerWorkbench-macOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,12 +161,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sherlayerWorkbench-iOS" */;
 			buildPhases = (
-				7BC40D98CAD1562CFD247217 /* [CP] Check Pods Manifest.lock */,
+				4844D6F670352D122E998677 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F3F37B7D02E3CA728B238591 /* [CP] Embed Pods Frameworks */,
+				B89EEECABC84F43C05BBD021 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,12 +183,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5142015A2437B4B40078DB4F /* Build configuration list for PBXNativeTarget "sherlayerWorkbench-macOS" */;
 			buildPhases = (
-				1A938104A937498D81B3BD3B /* [CP] Check Pods Manifest.lock */,
+				5097FE93AA0F8E4FBA3D4A17 /* [CP] Check Pods Manifest.lock */,
 				381D8A6F24576A6C00465D17 /* Start Packager */,
 				514201452437B4B30078DB4F /* Sources */,
 				514201462437B4B30078DB4F /* Frameworks */,
 				514201472437B4B30078DB4F /* Resources */,
 				381D8A6E24576A4E00465D17 /* Bundle React Native code and images */,
+				70580742C14D35BA061495C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,28 +272,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native-macos/scripts/react-native-xcode.sh\n";
 		};
-		1A938104A937498D81B3BD3B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Shared-sherlayerWorkbench-macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		381D8A6E24576A4E00465D17 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,7 +308,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native-macos/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native-macos/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 		};
-		7BC40D98CAD1562CFD247217 /* [CP] Check Pods Manifest.lock */ = {
+		4844D6F670352D122E998677 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,11 +323,91 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Shared-sherlayerWorkbench-iOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-sherlayerWorkbench-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5097FE93AA0F8E4FBA3D4A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sherlayerWorkbench-macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70580742C14D35BA061495C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sherlayerWorkbench-macOS/Pods-sherlayerWorkbench-macOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core-macOS/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sherlayerWorkbench-macOS/Pods-sherlayerWorkbench-macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89EEECABC84F43C05BBD021 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sherlayerWorkbench-iOS/Pods-sherlayerWorkbench-iOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core-iOS/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sherlayerWorkbench-iOS/Pods-sherlayerWorkbench-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F37B7D02E3CA728B238591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sherlayerWorkbench-iOS/Pods-sherlayerWorkbench-iOS-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sherlayerWorkbench-iOS/Pods-sherlayerWorkbench-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -414,7 +475,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D32DFD059D5DB6DDEF38881 /* Pods-Shared-sherlayerWorkbench-iOS.debug.xcconfig */;
+			baseConfigurationReference = FA4ED7CABD6F9FD8A75B7FD3 /* Pods-sherlayerWorkbench-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -437,7 +498,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A82DFB63B157C65E5D698CA2 /* Pods-Shared-sherlayerWorkbench-iOS.release.xcconfig */;
+			baseConfigurationReference = A6AB56D359BB24BB2B6E3164 /* Pods-sherlayerWorkbench-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -458,7 +519,7 @@
 		};
 		5142015B2437B4B40078DB4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02422F9FB6FF5F34B4E63E6F /* Pods-Shared-sherlayerWorkbench-macOS.debug.xcconfig */;
+			baseConfigurationReference = E7F6C32EF37700EA69FF5AD0 /* Pods-sherlayerWorkbench-macOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -479,7 +540,7 @@
 		};
 		5142015C2437B4B40078DB4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE0E74F571E1F48FF00A8324 /* Pods-Shared-sherlayerWorkbench-macOS.release.xcconfig */;
+			baseConfigurationReference = 3DD9071A8CD95DA8D51453AB /* Pods-sherlayerWorkbench-macOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -529,6 +590,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -547,8 +609,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -589,6 +651,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -600,8 +663,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
