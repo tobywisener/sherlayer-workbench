@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sherlayer-workbench.iml" filepath="$PROJECT_DIR$/.idea/sherlayer-workbench.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sherlayerWorkbench.iml" filepath="$PROJECT_DIR$/.idea/sherlayerWorkbench.iml" />
     </modules>
   </component>
 </project>

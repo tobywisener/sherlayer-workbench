@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="39a06be6-0a93-4f26-a12c-e3577fda0e02"
-    Publisher="CN=Admin"
+    Name="af781d17-3a42-4944-b637-371320b906fd"
+    Publisher="CN=VMishchenko"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="39a06be6-0a93-4f26-a12c-e3577fda0e02" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="af781d17-3a42-4944-b637-371320b906fd" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>sherlayerWorkbench</DisplayName>
-    <PublisherDisplayName>Admin</PublisherDisplayName>
+    <PublisherDisplayName>VMishchenko</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
